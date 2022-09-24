@@ -96,6 +96,12 @@
                                         <p> Departemen</p>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="{{ url('pegawai') }}" class="nav-link">
+                                        <i class="nav-icon far fa-circle"></i>
+                                        <p> Pegawai</p>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                         <!-- /.sidebar-menu -->

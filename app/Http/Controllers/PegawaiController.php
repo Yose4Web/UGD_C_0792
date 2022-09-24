@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 /* Import Model */
-use App\Models\Departemen;
+use App\Models\Pegawai;
 use Illuminate\Http\Request;
 
-class DepartemenController extends Controller
+class PegawaiController extends Controller
 {
     /**
     * index
@@ -17,9 +17,8 @@ class DepartemenController extends Controller
     public function index()
     {
         //get posts
-        $departemen = Departemen::paginate(5);
-        
+        $pegawai = Pegawai::paginate(5);
         //render view with posts
-        return view('departemen.index', compact('departemen'));
+        return view('pegawai.index', compact('pegawai'));
     }
 }
