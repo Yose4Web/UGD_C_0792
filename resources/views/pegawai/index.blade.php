@@ -59,7 +59,7 @@
                                         @endforelse
                                     </tbody>
                                 </table>
-                                <div class="col text-center">
+                                <div class="row justify-content-center">
                                     {{ $pegawai->links() }}
                                 </div>   
                             </div>
