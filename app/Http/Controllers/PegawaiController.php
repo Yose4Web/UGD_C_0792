@@ -51,9 +51,8 @@ class PegawaiController extends Controller
             'email'=> 'required|email',
             'telepon'=> 'required|min:10|max:15',
             'gender'=> 'required',
-            'status'=> 'required'
+            'status'=> 'required'            
         ]);
-
 
         //Fungsi Simpan Data ke dalam Database
         Pegawai::create([
