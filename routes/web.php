@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::resource('/departemen', \App\Http\Controllers\DepartemenController::class);
 Route::resource('/pegawai', \App\Http\Controllers\PegawaiController::class);
 
+Route::delete('/departemen/{id}', 'DepartemenController@destroy')->name('departemen.destroy');
+//Route::update('/departemen/{id}', 'DepartemenController@update')->name('departemen.update');
